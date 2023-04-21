@@ -8,7 +8,9 @@ sed -i "s/10\.10\.10\.234/$OWRT_IP/g" ./package/base-files/files/bin/config_gene
 sed -i "s/OpenWrt\|ImmortalWrt/$OWRT_NAME/g" ./package/base-files/files/bin/config_generate
 #修改默认主题
 sed -i "s/luci-theme-bootstrap/luci-theme-$OWRT_THEME/g" $(find ./feeds/luci/collections/ -type f -name "Makefile")
-
+#修改内核版本
+sed -i "s/KERNEL_PATCHVER:=*.*/KERNEL_PATCHVER:=6.1/g" target/linux/x86/Makefile
+sed -i "s/KERNEL_TESTING_PATCHVER:=*.*/KERNEL_TESTING_PATCHVER:=6.1/g" target/linux/x86/Makefile      
 #根据源码来修改
 if [[ $OWRT_URL == *"lede"* ]] ; then
   #修改默认时间格式
