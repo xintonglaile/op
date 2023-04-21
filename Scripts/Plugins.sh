@@ -12,6 +12,10 @@ git clone --depth=1 --single-branch https://github.com/gngpp/luci-theme-design.g
 git clone --depth=1 --single-branch https://github.com/gngpp/luci-app-design-config.git
 #Open Clash
 git clone --depth=1 --single-branch --branch "dev" https://github.com/vernesong/OpenClash.git
+HelloWorld
+git clone https://github.com/jerrykuku/lua-maxminddb.git
+git clone https://github.com/jerrykuku/luci-app-vssr.git  
+
 
 #Open Clash Core
 export CORE_VER=https://raw.githubusercontent.com/vernesong/OpenClash/core/dev/core_version
