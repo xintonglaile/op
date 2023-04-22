@@ -12,9 +12,6 @@ git clone --depth=1 --single-branch https://github.com/gngpp/luci-theme-design.g
 git clone --depth=1 --single-branch https://github.com/gngpp/luci-app-design-config.git
 #Open Clash
 git clone --depth=1 --single-branch --branch "dev" https://github.com/vernesong/OpenClash.git
-#HelloWorld
-git clone --depth=1 --single-branch https://github.com/jerrykuku/lua-maxminddb.git
-git clone --depth=1 --single-branch https://github.com/jerrykuku/luci-app-vssr.git  
 #Passwall
 git clone --depth=1 --single-branch https://github.com/kenzok8/small.git 
 git clone --depth=1 --single-branch https://github.com/xiaorouji/openwrt-passwall.git 
