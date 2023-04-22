@@ -13,7 +13,6 @@ git clone --depth=1 --single-branch https://github.com/gngpp/luci-app-design-con
 #Open Clash
 git clone --depth=1 --single-branch --branch "dev" https://github.com/vernesong/OpenClash.git
 #Passwall
-git clone --depth=1 --single-branch https://github.com/kenzok8/small.git 
 git clone --depth=1 --single-branch https://github.com/xiaorouji/openwrt-passwall.git 
 
 
